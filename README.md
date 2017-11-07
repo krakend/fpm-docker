@@ -21,4 +21,5 @@ docker build -t fpm:rpm fpm
 ## Custom Linux distributions
 
 For another deb-flavored distro, change the `FROM` in the `deb/Dockerfile`.
+
 For another rpm-flavored distro, change the `FROM` in the `rpm/Dockerfile`.
