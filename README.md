@@ -15,7 +15,7 @@ docker build -t fpm:deb deb
 Uses CentOS 7, if you want another rpm-flavored distro, change the `FROM` in the `Dockerfile`.
 
 ```
-docker build -t fpm:rpm fpm
+docker build -t fpm:rpm rpm
 ```
 
 ## Custom Linux distributions
