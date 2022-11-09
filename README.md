@@ -1,25 +1,4 @@
-# docker-fpm
+# Linux package builder
+This repository contains the source code to generate the Docker image [krakend/fpm](http://hub.docker.com/r/krakend/fpm).
 
-Use it from the [Docker Hub](http://hub.docker.com/r/devopsfaith/fpm).
-
-## Deb packages
-
-Uses Ubuntu Xenial
-
-```
-docker build -t fpm:deb deb
-```
-
-## RPM packages
-
-Uses CentOS 7
-
-```
-docker build -t fpm:rpm rpm
-```
-
-## Custom Linux distributions
-
-For another deb-flavored distro, change the `FROM` in the `deb/Dockerfile`.
-
-For another rpm-flavored distro, change the `FROM` in the `rpm/Dockerfile`.
+The Dockerfile uses `fpm` which is a tool to make it easy to build packages such as rpms or debs.
