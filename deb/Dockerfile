@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-LABEL maintainer="dortiz@devops.faith"
+LABEL maintainer="packages@krakend.io"
 
 RUN apt-get update && apt-get install -y \
 	ruby-dev \

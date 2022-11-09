@@ -1,5 +1,5 @@
 FROM centos:7
-LABEL maintainer="dortiz@devops.faith"
+LABEL maintainer="packages@krakend.io"
 
 RUN yum install -y \
 	ruby-devel \
